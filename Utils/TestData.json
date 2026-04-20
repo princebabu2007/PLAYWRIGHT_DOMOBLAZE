@@ -1,0 +1,11 @@
+{
+     "url" : "https://www.demoblaze.com/",
+     "userName" : "princebabu22",
+     "password" : "password@12322",
+     "userName_Invalid" : "invaliduserPB",
+     "password_Invalid" : "invalidpasswordPB",
+     "signUpSuccessMessage" : "Sign up successful.",
+     "signInErrorMsg1" : "User does not exist.",
+     "signInErrorMsg2" : "Wrong password.",
+     "orderConfirmationMessage" : "Thank you for your purchase!"
+}

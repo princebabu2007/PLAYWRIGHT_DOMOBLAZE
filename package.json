@@ -2,13 +2,17 @@
   "name": "playwright_domoblaze",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "parallelTest": "npx playwright test  --config playwright.config_parallel.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "@types/node": "^25.5.0"
+    "@types/node": "^25.5.0",
+    "allure-playwright": "^3.7.1"
   }
 }

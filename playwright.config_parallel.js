@@ -44,12 +44,14 @@ export default defineConfig({
       use: { ...devices['Desktop Chrome'] },
       headless: false // Set headless to false to see the browser during test execution
     }
-    /*,
+    ,
 
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
-    },
+      headless: false
+    }
+    /*,
 
     {
       name: 'webkit',

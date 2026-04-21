@@ -5,7 +5,8 @@
   "scripts": {
     "test": "npx playwright test",
     "parallelTest": "npx playwright test  --config playwright.config_parallel.js",
-    "allureReports": "npx playwright test --reporter=line,allure-playwright"
+    "generateAllureResults": "npx playwright test --reporter=line,allure-playwright",
+    "generateAllureReport": "npx allure generate ./allure-results"
   },
   "keywords": [],
   "author": "",

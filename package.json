@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-    "parallelTest": "npx playwright test  --config playwright.config_parallel.js"
+    "parallelTest": "npx playwright test  --config playwright.config_parallel.js",
+    "allureReports": "npx playwright test --reporter=line,allure-playwright"
   },
   "keywords": [],
   "author": "",

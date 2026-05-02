@@ -1,0 +1,6 @@
+Number of monitors displayed: 2
+Number of monitors displayed: 2
+Monitor to select Apple monitor 24
+Apple monitor 24
+ASUS Full HD
+Selected monitor: Apple monitor 24
